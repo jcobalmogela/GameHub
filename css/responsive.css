@@ -1,0 +1,63 @@
+@media (max-width: 768px) { 
+    .container-fluid{
+        display: grid;
+      
+    }
+    .div1{
+        width: 100%!important;
+    
+    }
+    .bt1{
+        left: 0;
+    }
+    .carousel-item > img {
+        height: 25rem;
+        
+    }
+    .carousel-item{
+        height: 25rem;
+    }
+    .newscon{
+        width: 100%!important;
+      
+    }
+    .container-fluid{
+        padding: 25px!important;
+    }
+    .div2conf{
+        height: 50rem;
+        padding-top: 10px!important;
+        padding-bottom: 10px!important;
+    }
+    .div2con{
+        display: flex;
+        width: 100%;
+        padding-left: 10px!important;
+        padding-right: 10px!important;
+    }
+    .div2{
+        height: 10rem!important;
+    }
+    .div2 > img {
+       width: 100%!important;
+       height: 10rem!important;
+    }
+    .div2:nth-child(1){
+        position: relative;
+        top:20%;
+        left:10%;
+        z-index: 0;
+        
+    }
+    .div2:nth-child(2){
+        top: 0%;
+        left: 0%;
+    }
+    .div2:nth-child(3){
+        top: 20%;
+        right: 10%;
+        z-index: 0;
+    }
+
+    
+}
