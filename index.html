@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-
+  <script src="js/script.js"></script>
   <script src="js/bootstrap.min.js"></script>
 
 </head>
@@ -29,10 +29,18 @@
           <a class="nav-link" href=""></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="">SIGN IN</a>
+          <a  class="nav-link" >SIGN IN</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="">REGISTER</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"" href="">GAMES</a>
+          <div class="dropdown-menu" aria-labelledby="dropdown01">
+            <a href="#ft" class="dropdown-item">Featured Games</a>
+            <a href="#lu" class="dropdown-item">Latest Update</a>
+            <a href="" class="dropdown-item"></a>
+          </div>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="">DOWNLOAD</a>
@@ -54,7 +62,7 @@
       </div>
     </div>
   </div>
-  <h1 class="texth1">FEATURED GAMES
+  <h1 class="texth1" id="ft">FEATURED GAMES
     <hr style="border: 1px solid black; width: 11rem; margin: auto; margin-top: .5rem;">
   </h1>
   <div class="container-fluid">
@@ -89,7 +97,7 @@
   <div class="updatecon container-fluid" style="padding-top: 20px;">
     <button class="bt1">LATEST GAME</button>
   </div>
-  <h1 class="texth2">LATEST UPDATE
+  <h1 class="texth2" id="lu">LATEST UPDATE
     <hr style="border: 1px solid black; width: 11rem; margin: auto; margin-top: .5rem;">
   </h1>
   <div class="updatedcons container-fluid">
